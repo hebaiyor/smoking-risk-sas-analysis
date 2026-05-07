@@ -5,7 +5,7 @@
 /*             December 18, 2024                                         */
 /*************************************************************************/
 
-libname ref '/home/u63996758/sasuser.v94/Data';
+libname ref "./data";
 
 *Simple Random Sample - 900 observations, seed 9653;
 *output to permanent sas dataset hbaiyor.sas7bdat;
@@ -137,7 +137,7 @@ where (ht3=. and examwt3 ne .) or (ht3 ne . and examwt3=.);
 run;
 
 *output results to ODS RTF file;
-ods rtf file="/home/u63996758/sasuser.v94/Output/hbaiyorprojectoutput.rtf" style=barrettsblue;
+ods rtf file="./output/hbaiyorprojectoutput.rtf" style=barrettsblue;
 
 proc contents data=tecumseh; run; *proc contents of data set with newly created variables;
 
