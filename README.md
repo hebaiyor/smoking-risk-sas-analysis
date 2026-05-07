@@ -6,7 +6,7 @@ This project analyzes behavioral risk factors associated with cardiometabolic ou
 
 ## Project Overview
 
-This project uses SAS to perform an exploratory statistical analysis of behavioral and cardiometabolic risk factors using a stratified sample of the Tecumseh epidemiological dataset (N = 900). The analysis examines relationships between smoking behavior, alcohol consumption, age, sex, and body mass index (BMI) across two time points.
+This project uses SAS to perform an exploratory statistical analysis of behavioral and cardiometabolic risk factors using a simple random sample of the Tecumseh epidemiological dataset (N = 900). The analysis examines relationships between smoking behavior, alcohol consumption, age, sex, and body mass index (BMI) across two time points.
 
 The goal is to demonstrate skills in data management, statistical analysis, and interpretation commonly used in public health and healthcare analytics.
 
@@ -54,7 +54,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
     <img src="images/Smoke1bySmoke3.png" width="370">
 
-    *Figure 1: This frequency table cross-tabulates smokers at time 1 and time 3, and McNemar's test allows us to compare this paired data to display a staitstically significant change in smoking status over time.*
+    *Figure 1: This frequency table cross-tabulates smokers at time 1 and time 3, and McNemar's test McNemar’s test compares paired smoking status measurements across time points and demonstrates a statistically significant change in smoking prevalence over time.*
 
 ------------------------------------------------------------------------
 
@@ -66,7 +66,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
     <img src="images/BMIAge.png" width="370">
 
-    *Figure 2: This boxplot displays BMI at time 1 by age group, showing a significnat difference in BMI between at least two age groups.*
+    *Figure 2: This boxplot displays BMI at time 1 by age group, showing a significant difference in BMI between age groups.*
 
 -   Tukey post-hoc tests identified multiple significant differences between younger and older age groups.
 
@@ -80,7 +80,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
     <img src="images/BMIAlcoholRegression.png" width="370">
 
-    *Figure 3:* *Regression analysis predicting BMI (time 1) from alcohol consumption displays relevant parameter estimates and model fit statistics.*
+    *Figure 3:* *Regression analysis predicting BMI (time 1) from alcohol consumption displays parameter estimates and overall model fit statistics.*
 
 ------------------------------------------------------------------------
 
