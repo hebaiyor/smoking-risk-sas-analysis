@@ -1,7 +1,6 @@
 # Behavioral and Cardiometabolic Risk Factor Analysis Using SAS
 ![SAS](https://img.shields.io/badge/SAS-Programming-blue)
 ![Public Health](https://img.shields.io/badge/Public%20Health-Biostatistics-green)
-![Status](https://img.shields.io/badge/status-complete-brightgreen)
 
 ## Summary
 
