@@ -52,7 +52,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 -   Smoking prevalence decreased significantly between time 1 and time 3 (McNemar’s test, p \< 0.0001).
 
-    <img src="images/Smoke1bySmoke3.png" width="370">
+    <img src="images/Smoke1bySmoke3.png" width="370"/>
 
     *Figure 1: This frequency table cross-tabulates smokers at time 1 and time 3, and McNemar's test McNemar’s test compares paired smoking status measurements across time points and demonstrates a statistically significant change in smoking prevalence over time.*
 
@@ -64,7 +64,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 -   BMI increased significantly across age groups (ANOVA, p \< 0.0001).
 
-    <img src="images/BMIAge.png" width="370">
+    <img src="images/BMIAge.png" width="370"/>
 
     *Figure 2: This boxplot displays BMI at time 1 by age group, showing a significant difference in BMI between age groups.*
 
@@ -78,9 +78,9 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 -   Regression model explained very little variability in BMI (R² = 0.002), suggesting weak association.
 
-    <img src="images/BMIAlcoholRegression.png" width="370">
+    <img src="images/BMIAlcoholRegression.png" width="370"/>
 
-    *Figure 3:* *Regression analysis predicting BMI (time 1) from alcohol consumption displays parameter estimates and overall model fit statistics.*
+    *Figure 3:* *Linear* *regression analysis predicting BMI at time 1 from alcohol consumption, including parameter estimates and overall model fit statistics.*
 
 ------------------------------------------------------------------------
 
@@ -90,7 +90,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 -   Paired t-test showed a statistically significant increase in BMI over time (p \< 0.0001).
 
-    <img src="images/BMI1byBMI3.png" width="370">
+    <img src="images/BMI1byBMI3.png" width="370"/>
 
     *Figure 4: This scatter plot displays the strong positive correlation between BMI at time 1 (x-axis) and BMI at time 3 (y-axis).*
 
