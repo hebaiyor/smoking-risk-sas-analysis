@@ -247,7 +247,7 @@ proc glm data=tecumseh plots=diagnostics; *plots=diagnostics option to produce d
     class agegrp;
     model bmi1=agegrp;
     means agegrp / tukey;
-    title 'ANOVA with Multiple Comparisions (Tukey): BMI1 by Age Group';
+    title 'ANOVA with Multiple Comparisons (Tukey): BMI1 by Age Group';
 run;
 
 *linear regression model of BMI1 as a function of ETOH;
