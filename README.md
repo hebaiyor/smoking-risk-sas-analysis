@@ -73,16 +73,32 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 ## Repository Structure
 ```text
-sas-project/
+smoking-risk-sas-analysis/
 │
-├── sas-code/
-│   └── final_project.sas        # Main SAS program (data cleaning + analysis)
+├── data/
+│   └── tecumseh_etoh.sas7bdat
 │
 ├── output/
-│   └── sas_results.rtf          # Exported results from SAS (tables, outputs)
+│   └── (generated RTF files go here)
 │
-└── README.md                    # Project documentation
+├── sas/
+│   └── final_project.sas
+│
+└── README.md
 ```
+
+---
+
+## 📁 Project Setup
+
+Before running the SAS program:
+
+1. Ensure the following folders exist in the repository:
+   - `data/`
+   - `output/`
+
+2. Place the dataset file in:
+  - data/tecumseh_etoh.sas7bdat
 
 ---
 

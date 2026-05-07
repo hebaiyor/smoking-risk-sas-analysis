@@ -1,3 +1,9 @@
+/* =========================================================
+   Portable SAS Project Setup
+   This project uses relative paths so it can be run
+   from any local copy of the GitHub repository.
+   ========================================================= */
+
 /*************************************************************************/
 /*             Introduction to SAS Programming - Final Project           */
 /*             Hannah Baiyor                                             */
