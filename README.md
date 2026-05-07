@@ -1,4 +1,7 @@
 # Behavioral and Cardiometabolic Risk Factor Analysis Using SAS
+![SAS](https://img.shields.io/badge/SAS-Programming-blue)
+![Public Health](https://img.shields.io/badge/Public%20Health-Biostatistics-green)
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
 
 ## Summary
 
@@ -6,7 +9,7 @@ This project analyzes behavioral risk factors associated with cardiometabolic ou
 
 ## Project Overview
 
-This project uses SAS to perform an exploratory statistical analysis of behavioral and cardiometabolic risk factors using a simple random sample of the Tecumseh epidemiological dataset (N = 900). The analysis examines relationships between smoking behavior, alcohol consumption, age, sex, and body mass index (BMI) across two time points.
+This project uses SAS to perform an exploratory statistical analysis of behavioral and cardiometabolic risk factors using a simple random sample (N = 900) drawn from the Tecumseh epidemiological dataset. The analysis examines relationships between smoking behavior, alcohol consumption, age, sex, and body mass index (BMI) across two time points.
 
 The goal is to demonstrate skills in data management, statistical analysis, and interpretation commonly used in public health and healthcare analytics.
 
@@ -14,9 +17,9 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 ## Dataset
 
--   Source: Tecumseh epidemiological dataset (sampled using simple random sampling)
--   Sample size: N = 900
--   Key variables:
+- Source: Tecumseh epidemiological dataset
+- Analytic sample: Simple random sample (N = 900)
+- Key variables:
     -   Demographics: age, sex
     -   Behavioral factors: smoking status, alcohol consumption
     -   Clinical measures: height, weight, BMI (time 1 and time 3)
@@ -54,7 +57,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
     <img src="images/Smoke1bySmoke3.png" width="370"/>
 
-    *Figure 1: This frequency table cross-tabulates smokers at time 1 and time 3, and McNemar's test McNemar’s test compares paired smoking status measurements across time points and demonstrates a statistically significant change in smoking prevalence over time.*
+    *Figure 1: This frequency table cross-tabulates smoking status at time 1 and time 3. McNemar’s test compares paired smoking status measurements across time points and demonstrates a statistically significant change in smoking prevalence over time.*
 
 ------------------------------------------------------------------------
 
@@ -66,7 +69,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
     <img src="images/BMIAge.png" width="370"/>
 
-    *Figure 2: This boxplot displays BMI at time 1 by age group, showing a significant difference in BMI between age groups.*
+    *Figure 2: This boxplot displays BMI at time 1 by age group, illustrating differences in BMI distributions between age groups.*
 
 -   Tukey post-hoc tests identified multiple significant differences between younger and older age groups.
 
@@ -80,7 +83,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
     <img src="images/BMIAlcoholRegression.png" width="370"/>
 
-    *Figure 3:* *Linear* *regression analysis predicting BMI at time 1 from alcohol consumption, including parameter estimates and overall model fit statistics.*
+    *Figure 3: Linear regression analysis predicting BMI at time 1 from alcohol consumption, including parameter estimates and overall model fit statistics.*
 
 ------------------------------------------------------------------------
 
@@ -113,6 +116,12 @@ smoking-risk-sas-analysis/
 ├── data/
 │   └── tecumseh_etoh.sas7bdat
 │
+├── images/
+│   ├── Smoke1bySmoke3.png
+│   ├── BMIAge.png
+│   ├── BMIAlcoholRegression.png
+│   └── BMI1byBMI3.png
+│
 ├── output/
 │   └── (generated RTF files go here)
 │
@@ -140,17 +149,15 @@ Repository includes:
 
 -   `data/` → dataset required to run analysis
 
+-   `images/` → figures displayed in the README
+
 -   `output/` → generated results
 
 **Run Analysis**
 
 -   Open `sas/final_project.sas` in SAS Studio
 
-<!-- -->
-
 -   Click **Run (▶)**
-
-<!-- -->
 
 -   All data processing, analysis, and outputs execute automatically
 
