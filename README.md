@@ -52,7 +52,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 -   Smoking prevalence decreased significantly between time 1 and time 3 (McNemar’s test, p \< 0.0001).
 
-    ![](images/Smoke1bySmoke3.png){width="314"}
+    ![](images/Smoke1bySmoke3.png)
 
     *Figure 1: This frequency table cross-tabulates smokers at time 1 and time 3, and McNemar's test allows us to compare this paired data to display a staitstically significant change in smoking status over time.*
 
@@ -64,7 +64,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 -   BMI increased significantly across age groups (ANOVA, p \< 0.0001).
 
-    ![](images/BMIAge.png){width="380"}
+    ![](images/BMIAge.png)
 
     *Figure 2: This boxplot displays BMI at time 1 by age group, showing a significnat difference in BMI between at least two age groups.*\
 
@@ -78,7 +78,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 -   Regression model explained very little variability in BMI (R² = 0.002), suggesting weak association.
 
-    ![](images/BMIAlcoholRegression.png){width="385"}
+    ![](images/BMIAlcoholRegression.png)
 
     *Figure 3:* *Regression analysis predicting BMI (time 1) from alcohol consumption displays relevant parameter estimates and model fit statistics.*
 
@@ -90,7 +90,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 -   Paired t-test showed a statistically significant increase in BMI over time (p \< 0.0001).
 
-    ![](images/BMI1byBMI3.png){width="392"}
+    ![](images/BMI1byBMI3.png)
 
     *Figure 4: This scatter plot displays the strong positive correlation between BMI at time 1 (x-axis) and BMI at time 3 (y-axis).*
 
