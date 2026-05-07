@@ -14,30 +14,30 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 ## Dataset
 
--   Source: Tecumseh epidemiological dataset (sampled using simple random sampling)\
--   Sample size: N = 900\
+-   Source: Tecumseh epidemiological dataset (sampled using simple random sampling)
+-   Sample size: N = 900
 -   Key variables:
-    -   Demographics: age, sex\
-    -   Behavioral factors: smoking status, alcohol consumption\
+    -   Demographics: age, sex
+    -   Behavioral factors: smoking status, alcohol consumption
     -   Clinical measures: height, weight, BMI (time 1 and time 3)
 
 ------------------------------------------------------------------------
 
 ## Tools & SAS Procedures Used
 
--   Data sampling: `PROC SURVEYSELECT`\
--   Data transformation: DATA steps + `PROC FORMAT`\
--   Descriptive statistics: `PROC MEANS`\
--   Frequency analysis: `PROC FREQ`\
+-   Data sampling: `PROC SURVEYSELECT`
+-   Data transformation: DATA steps + `PROC FORMAT`
+-   Descriptive statistics: `PROC MEANS`
+-   Frequency analysis: `PROC FREQ`
 -   Cross-tabulation & association testing:
-    -   Chi-square tests\
-    -   Cochran-Armitage trend test\
-    -   McNemar’s test (paired categorical data)\
+    -   Chi-square tests
+    -   Cochran-Armitage trend test
+    -   McNemar’s test (paired categorical data)
 -   Group comparisons:
-    -   `PROC TTEST` (independent and paired samples)\
-    -   `PROC GLM` (ANOVA with Tukey post-hoc tests)\
--   Correlation analysis: `PROC CORR`\
--   Regression analysis: `PROC REG`\
+    -   `PROC TTEST` (independent and paired samples)
+    -   `PROC GLM` (ANOVA with Tukey post-hoc tests)
+-   Correlation analysis: `PROC CORR`
+-   Regression analysis: `PROC REG`
 -   Data visualization: `PROC SGPLOT`, `PROC UNIVARIATE`
 
 ------------------------------------------------------------------------
@@ -53,6 +53,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 -   Smoking prevalence decreased significantly between time 1 and time 3 (McNemar’s test, p \< 0.0001).
 
     ![](images/Smoke1bySmoke3.png)
+    <img src="images/Smoke1bySmoke3.png" width="48">
 
     *Figure 1: This frequency table cross-tabulates smokers at time 1 and time 3, and McNemar's test allows us to compare this paired data to display a staitstically significant change in smoking status over time.*
 
