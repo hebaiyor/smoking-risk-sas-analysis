@@ -52,8 +52,7 @@ The goal is to demonstrate skills in data management, statistical analysis, and 
 
 -   Smoking prevalence decreased significantly between time 1 and time 3 (McNemar’s test, p \< 0.0001).
 
-    ![](images/Smoke1bySmoke3.png)
-    <img src="images/Smoke1bySmoke3.png" width="48">
+    <img src="images/Smoke1bySmoke3.png" width="350">
 
     *Figure 1: This frequency table cross-tabulates smokers at time 1 and time 3, and McNemar's test allows us to compare this paired data to display a staitstically significant change in smoking status over time.*
 
