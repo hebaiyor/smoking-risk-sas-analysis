@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Behavioral and Cardiometabolic Risk Factor Analysis Using SAS
 
 ## Project Overview
